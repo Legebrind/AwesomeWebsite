@@ -1,0 +1,132 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#mainHeader,#footer{
+    background-color: #1f2937;
+}
+
+#quoteContainer{
+    background-color: #e5e7eb;
+}
+
+#button1{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+#mainText{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#secText{
+    font-size: 18px;
+    color: #e5e7e9;
+}
+
+#footer{
+    color: white;
+    text-align: center;
+
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center;
+
+}
+
+#header,#headerLinks,#subHeader,#cardsContainer,#callTA{
+    flex-direction: row;
+}
+
+a{
+    font-size: 18px;
+    color: #e5e7e9;
+    text-decoration: none;
+}
+
+#header{
+    justify-content: space-between;
+ 
+    
+}
+
+.mainDiv{
+    margin: 0px 30% 0px 30% ;
+}   
+
+.secDiv{
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+#shText{
+    max-width: 40%;
+}
+
+.whtBck{
+    background-color: white;
+}
+
+.cardImg{
+    border-color: #3882F6;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#randInfo{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card{
+    max-width: 100px;
+    margin-bottom: 40px;
+}
+
+#quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 50px;
+}
+
+#quoteAuthor{
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+#callTA{
+    background-color: #3882F6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #e5e7e9;
+}
+
+#CTAbold{
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#textoCTA{
+    padding: 5% 10%;
+    
+}

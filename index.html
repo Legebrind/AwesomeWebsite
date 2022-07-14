@@ -8,35 +8,62 @@
     <title>AwesomeWebsite</title>
 </head>
 <body>
-    <div>
+    <div class="mainDiv" id="mainHeader">
         <div id="header">
-            <div id="headerLogo"></div>
-            <div id="headerLinks"></div>
+            <div id="headerLogo">
+                <embed src="images/logoipsum-logo-8.svg">
+            </div>
+            <div id="headerLinks">
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
         </div>
-        <div id="subheader">
-            <div id="shText"></div>
-            <div id="shImage"></div>
+        <div class="secDiv" id="subHeader">
+            <div id="shText">
+                <p id="mainText">This website is awesome</p>
+                <p id="secText">This website has more subtext that goes here under the main titel. It's a smaller font and the color is lower contrast</p>
+                <button type="button" id="button1">Sign up</button>
+            </div>
+            <div id="shImage">
+                <img src="images/img1.jpg" alt="placeholder">
+            </div>
         </div>
     </div>
-    <div>
-        <div id="randifo">placeholder</div>
-        <div id="cardsContainer">
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
+    <div class="mainDiv whtBck">
+        <div class="secDivt" id="randInfo">Some random information</div>
+        <div class="secDiv" id="cardsContainer">
+            <div class="card">
+                <img src="images/img2.jpg" alt="placeholder" class="cardImg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="card">
+                <img src="images/img3.jpg" alt="placeholder" class="cardImg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="card">
+                <img src="images/img4.jpg" alt="placeholder" class="cardImg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+            <div class="card">
+                <img src="images/img5.jpg" alt="placeholder" class="cardImg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
         </div>
     </div>
-    <div>
-        <div id="cuote">placeholder</div>
-        <div id="cuoteAuthor">placeholder</div>
+    <div class="mainDiv" id="quoteContainer">
+        <div class="secDiv" id="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div class="secDiv" id="quoteAuthor">-Cicero</div>
     </div>
-    <div>
-        <div id="callTA">
-            <div id="textoCTA"></div>
+    <div class="mainDiv whtBck">
+        <div class="secDiv" id="callTA">
+            <div id="textoCTA">
+                <div id="CTAbold">Call to action! It's time!</div>
+                <div>Sign up for our product by clicking that button right over there!</div>
+            </div>
             <div id="botonCTA"></div>
         </div>
     </div>
-    <div>placeholder</div>
+    <div class="mainDiv" id="footer">Copyright &copy The Odin Project 2021</div>
 </body>
 </html>
