@@ -17,22 +17,29 @@ body{
     color: white;
     border: none;
     border-radius: 15px;
+    max-width: 100px;
+    margin-bottom: 50px;
 }
 
 #mainText{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-top: 20px;
 }
 
 #secText{
     font-size: 18px;
     color: #e5e7e9;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #footer{
     color: white;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -57,8 +64,9 @@ a{
 
 #header{
     justify-content: space-between;
- 
-    
+    padding-left: 100px;
+    padding-right: 100px;    
+    margin-top: 10px;
 }
 
 .mainDiv{
@@ -118,6 +126,7 @@ a{
     margin-top: 50px;
     margin-bottom: 50px;
     color: #e5e7e9;
+    padding-right: 100px;
 }
 
 #CTAbold{
@@ -128,5 +137,20 @@ a{
 
 #textoCTA{
     padding: 5% 10%;
-    
+}
+
+#button2{
+    border: 2px solid white;
+    background-color:#3882F6;
+    border-radius: 15px;
+    width: 100px;
+    color: white;
+}
+
+#botonCTA{
+    justify-content: center;
+}
+
+#headerLinks{
+    gap: 10px;
 }
